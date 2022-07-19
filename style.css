@@ -5,6 +5,8 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
 }
 
 header {
@@ -12,25 +14,117 @@ header {
     top: 0;
     background-color: #eb6e6e;
     width: 100%;
-    height: 4em;
+    height: 5em;
     text-align: center;
 }
 
 header h1 {
     padding: 0.5em;
+    font-size: 60px;
+    color: #1a0c12;
 }
 
 main {
     padding: 0.5em;
-    margin: 5em 1em 1em 1em;
+    margin: 6em 1em 1em 1em;
     background-color: #e0d3b8;
     border: 5px solid #e0d3b8;
     border-radius: 10px;
 }
 
+.div_img {
+    display: flex;
+    justify-content: center;
+}
+
+main h1 {
+    text-align: center;
+    margin: 0.5em 0 1em 0;
+}
+
+#conteudo {
+    font-size: 20px;
+    margin: 0;
+    font-style: italic;
+}
+
+
 #minha_foto {
     display: block;
     width: 300px;
-    margin: 1em 1em 1em 1em;
+    margin: 1em;
+    left: 683px;
 }
+
+#licoes_aprendidas {
+    margin: 1em 1em 1em 32em;
+    padding: 1em;
+    display: inline-block;
+}
+
+#licoes_a_aprender {
+    margin: 1em 1em 1em 2.5em;
+    padding: 1em;
+    display: inline-block;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    width: 80%;
+}
+
+.lado-esquerdo h2 {
+    margin: 1em;
+    font-size: 21px;
+}
+
+.lado-direito {
+    float: right;
+    display: inline;
+    width: 200px;
+    padding: 0 0 0 8em;
+    font-size: 12px;
+}
+
+.lado-direito h2 p {
+    text-align: center;
+}
+
+nav {
+    padding: 0.5em;
+    margin: 1em 1em 1em 1em;
+    background-color: #e0d3b8;
+    border: 5px solid #e0d3b8;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a0c12;
+    transition: 420ms;
+}
+
+nav a:hover {
+    color: #eb9e6e;
+}
+
+footer {
+    background-color: #eb6e6e;
+    color: #1a0c12;
+    width: 100%;
+    height: 25px;
+}
+
+footer h3 {
+    font-size: 8px;
+    padding: 0.3em 3em 0.3em 0.3em ;
+    text-align: right;
+}
+
 

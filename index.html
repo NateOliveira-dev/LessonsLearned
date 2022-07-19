@@ -5,18 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header id="cabeçalho">
+    <header id="cabecalho">
         <h1 id="titulo">
-            Lições Aprendidas - Trybe!
+            Lessons Learned - Trybe!
         </h1>
     </header>
     <main>
-        <img src="./img/profile-pic.png" alt="foto do nathan" id="minha_foto">
+        <div class="div_img">
+            <img src="./img/profile-pic.png" alt="foto do nathan" id="minha_foto">
+        </div>
+        <h1>Nate</h1>
+        <h1 id="conteudo">Conteúdo já vistos e futuros:</h1>
         <ol id="licoes_aprendidas">
             <li>Unix</li>
             <li>Git</li>
@@ -41,7 +50,12 @@
             <li>Typescript</li>
             <li>ES6</li>
         </ul>
-        <article class="article">
+        <article class="lado-esquerdo">
+            <aside class="lado-direito">
+                <h2>Sobre Nathan</h2>
+                <p>Meu nome é Nathan Oliveira Pagotto, tenho 25 anos e resido em Capivari, interior de SP.</p>
+                <p>Tenho licenciatura plena em música e atualmente estou cursando desenvolvimento web na Trybe.</p>
+            </aside>
             <h2>Meu Aprendizado na Trybe!</h2>
             <p>Meu aprendizado na Trybe está sendo muito enriquecedor, fazendo novas amizades e sempre evoluindo quando
                 se trata de hard skills.</p>
@@ -49,20 +63,14 @@
                 github.</p>
             <p>Além de desenvolvermos nossas hard skills, aqui na Trybe nós aprendemos bastante sobre as soft skills,
                 onde podemos evoluir como pessoa (e as empresas adoram!).</p>
-            <aside>
-                <h2>Sobre Nathan</h2>
-                <p>Meu nome é Nathan Oliveira Pagotto, sou natural de Campinas - SP, mas resido em Capivari também
-                    interior de SP.</p>
-                <p>Tenho licenciatura plena em música e atualmente estou cursando desenvolvimento web na Trybe.</p>
-            </aside>
         </article>
     </main>
     <nav id="link_externo">
-        <h2><a href="https://nateoliveira-dev.github.io/portfolio/"
-                target="_blank">Veja o meu portfólio clicando <strong>AQUI!</strong></a></h2>
+        <h2><a href="https://nateoliveira-dev.github.io/portfolio/" target="_blank">Veja o meu portfólio clicando
+                <strong>AQUI!</strong></a></h2>
     </nav>
     <footer id="rodape">
-        <h2>Todos os direitos reservados, Nathan Oliveira 2022.</h2>
+        <h3>Todos os direitos reservados, Nathan Oliveira 2022.</h3>
     </footer>
 
 </body>
